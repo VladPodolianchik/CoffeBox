@@ -1,8 +1,6 @@
 #include <iostream>
 #include <stdlib.h>
 
-#define MONEY 100
-
 #define PIN 1234
 
 using namespace std;
@@ -131,7 +129,8 @@ void showCupsBalance()	//get number from main menu
 	}
 }				
 
-void cupsReplenishmentMenu(){
+void cupsReplenishmentMenu()
+{
 	int userChoice = 0;
 	
 	cout << "Press 2 to return to the service menu" << endl;
@@ -143,7 +142,7 @@ void cupsReplenishmentMenu(){
 		showCupsBalance();
 }			
 
-void showWithdrawMoney()
+void showWithdrawMoney()   // WARNING!!!!!!!!!!!!!!!! {}
 {
 	int userChoice = 0;
 	
