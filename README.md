@@ -1,2 +1,0 @@
-# CoffeBox
-CoffeeBox Implementing
